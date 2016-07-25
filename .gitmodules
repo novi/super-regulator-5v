@@ -1,0 +1,6 @@
+[submodule "external/ab2tech-KiCad"]
+	path = external/ab2tech-KiCad
+	url = https://github.com/ab2tech/KiCad.git
+[submodule "external/cpavlina-kicad-schlib"]
+	path = external/cpavlina-kicad-schlib
+	url = https://github.com/cpavlina/kicad-schlib.git

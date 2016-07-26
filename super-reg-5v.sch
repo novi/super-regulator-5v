@@ -28,10 +28,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:semi-trans-OnSemi
 LIBS:references
-LIBS:DB-1
 LIBS:ab2_terminal_block
+LIBS:DB-1
+LIBS:semi-trans-OnSemi
 LIBS:super-reg-5v-cache
 EELAYER 25 0
 EELAYER END
@@ -208,7 +208,7 @@ U 1 1 57944B1A
 P 2950 3450
 F 0 "C1" H 2975 3550 50  0000 L CNN
 F 1 "2200u" H 2975 3350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D18_L36_P7.5" H 2988 3300 50  0001 C CNN
+F 2 "myfootprint:C_Radial_D18_L36_P7.5_LargePad" H 2988 3300 50  0001 C CNN
 F 3 "" H 2950 3450 50  0000 C CNN
 	1    2950 3450
 	1    0    0    -1  
@@ -219,7 +219,7 @@ U 1 1 5794546A
 P 6500 2450
 F 0 "JP1" H 6550 2350 50  0000 L CNN
 F 1 "OPAMP_PWR" H 6500 2550 50  0000 C BNN
-F 2 "Connect:PINHEAD1-3" H 6500 2450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 6500 2450 50  0001 C CNN
 F 3 "" H 6500 2450 50  0000 C CNN
 	1    6500 2450
 	0    1    1    0   
@@ -274,7 +274,7 @@ U 1 1 5794697D
 P 7600 3600
 F 0 "D6" H 7600 3700 50  0000 C CNN
 F 1 "D" H 7850 3600 50  0000 C CNN
-F 2 "Diodes_SMD:SMA_Handsoldering" H 7600 3600 50  0001 C CNN
+F 2 "myfootprint:TUMD2-handsoldering" H 7600 3600 50  0001 C CNN
 F 3 "" H 7600 3600 50  0000 C CNN
 	1    7600 3600
 	0    1    1    0   
@@ -285,7 +285,7 @@ U 1 1 57946AF5
 P 7400 3600
 F 0 "D4" H 7400 3700 50  0000 C CNN
 F 1 "D" H 7150 3600 50  0000 C CNN
-F 2 "Diodes_SMD:SMA_Handsoldering" H 7400 3600 50  0001 C CNN
+F 2 "myfootprint:TUMD2-handsoldering" H 7400 3600 50  0001 C CNN
 F 3 "" H 7400 3600 50  0000 C CNN
 	1    7400 3600
 	0    -1   -1   0   
@@ -715,7 +715,7 @@ U 1 1 5794D127
 P 3600 2350
 F 0 "D2" H 3600 2450 50  0000 C CNN
 F 1 "D" H 3600 2250 50  0000 C CNN
-F 2 "Diodes_SMD:SMA_Handsoldering" H 3600 2350 50  0001 C CNN
+F 2 "myfootprint:TUMD2-handsoldering" H 3600 2350 50  0001 C CNN
 F 3 "" H 3600 2350 50  0000 C CNN
 	1    3600 2350
 	1    0    0    -1  
@@ -725,21 +725,4 @@ Wire Wire Line
 Connection ~ 3150 2350
 Wire Wire Line
 	3750 2350 4000 2350
-$Comp
-L R R11
-U 1 1 5794D9D1
-P 10150 3550
-F 0 "R11" V 10230 3550 50  0000 C CNN
-F 1 "10k" V 10150 3550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 10080 3550 50  0001 C CNN
-F 3 "" H 10150 3550 50  0000 C CNN
-	1    10150 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10150 3400 10150 2700
-Connection ~ 10150 2700
-Wire Wire Line
-	10150 3700 10150 4200
-Connection ~ 10150 4200
 $EndSCHEMATC

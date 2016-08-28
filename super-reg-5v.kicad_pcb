@@ -3,7 +3,7 @@
   (general
     (links 68)
     (no_connects 0)
-    (area 115.494999 73.838999 195.655001 106.755001)
+    (area 106.014857 69.056 205.135143 110.118)
     (thickness 1.6)
     (drawings 10)
     (tracks 223)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
     (user_trace_width 0.5)
@@ -1582,7 +1582,7 @@
     )
   )
 
-  (gr_text 2016-07-29 (at 129.032 105.156) (layer F.SilkS)
+  (gr_text "2016-08-28\n" (at 129.032 105.156) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text AC (at 119.888 87.884) (layer F.SilkS)
@@ -1692,11 +1692,11 @@
   (segment (start 152.654 98.552) (end 153.924 97.282) (width 1) (layer B.Cu) (net 4) (tstamp 579768C3))
   (segment (start 152.654 100.584) (end 152.654 98.552) (width 1) (layer B.Cu) (net 4) (tstamp 579768C2))
   (segment (start 151.424 101.814) (end 152.654 100.584) (width 1) (layer B.Cu) (net 4) (tstamp 579768C1))
-  (segment (start 157.734 86.106) (end 157.734 81.788) (width 0.5) (layer B.Cu) (net 5) (status 400000))
+  (segment (start 157.734 86.106) (end 157.734 81.788) (width 0.5) (layer B.Cu) (net 5))
   (via (at 157.734 81.788) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (segment (start 157.734 77.136) (end 156.544 75.946) (width 0.5) (layer F.Cu) (net 5) (tstamp 57C2A278))
   (segment (start 157.734 81.788) (end 157.734 77.136) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 157.734 86.106) (end 157.48 86.36) (width 0.5) (layer B.Cu) (net 5) (tstamp 57C2A27E) (status C00000))
+  (segment (start 157.734 86.106) (end 157.48 86.36) (width 0.5) (layer B.Cu) (net 5) (tstamp 57C2A27E))
   (segment (start 156.544 76.28) (end 156.544 75.946) (width 0.5) (layer F.Cu) (net 5) (tstamp 57975886))
   (segment (start 162.052 81.788) (end 157.48 86.36) (width 0.8) (layer B.Cu) (net 5))
   (segment (start 167.132 82.296) (end 167.132 81.28) (width 0.5) (layer B.Cu) (net 6))

@@ -766,4 +766,21 @@ Text Label 7200 5000 0    60   ~ 0
 OPAMP_N
 Text Label 7600 3750 0    60   ~ 0
 OPAMP_N
+$Comp
+L CP C12
+U 1 1 57EA6AB0
+P 2750 3750
+F 0 "C12" H 2775 3850 50  0000 L CNN
+F 1 "C1-Alt" H 2775 3650 50  0000 L CNN
+F 2 "myfootprint:C_Radial_D18_L36_P7.5_LargePad_NoCircle" H 2788 3600 50  0001 C CNN
+F 3 "" H 2750 3750 50  0000 C CNN
+	1    2750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3600 2750 2700
+Connection ~ 2750 2700
+Wire Wire Line
+	2750 3900 2750 4200
+Connection ~ 2750 4200
 $EndSCHEMATC

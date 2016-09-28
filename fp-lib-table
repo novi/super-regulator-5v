@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name myfootprint)(type KiCad)(uri ${KIPRJMOD}/myfootprint.pretty)(options "")(descr ""))
   (lib (name DB-1)(type Legacy)(uri "$(KIPRJMOD)/external/Bridge_DB-1S/DB-1.mod")(options "")(descr ""))
+  (lib (name w_pth_diodes)(type KiCad)(uri "$(KIPRJMOD)/external/mod_pth_diodes/w_pth_diodes.pretty")(options "")(descr ""))
 )

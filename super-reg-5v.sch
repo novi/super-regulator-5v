@@ -384,7 +384,7 @@ U 1 1 57947E52
 P 9850 3550
 F 0 "C11" H 9875 3650 50  0000 L CNN
 F 1 "220u OS-CON" H 9875 3450 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D10_L20_P5" H 9888 3400 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D8_L13_P3.8" H 9888 3400 50  0001 C CNN
 F 3 "" H 9850 3550 50  0000 C CNN
 	1    9850 3550
 	1    0    0    -1  
@@ -581,12 +581,12 @@ Connection ~ 2950 4200
 Wire Wire Line
 	2550 3450 2650 3450
 Wire Wire Line
-	2650 3450 2650 2700
+	2650 2700 2650 4850
 Connection ~ 2950 2700
 Wire Wire Line
 	2150 3050 2150 3000
 Wire Wire Line
-	2150 3000 1400 3000
+	1400 3000 2300 3000
 Wire Wire Line
 	9800 4450 9800 4500
 Wire Wire Line
@@ -676,7 +676,7 @@ F 3 "" H 1500 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 3900 1500 4000
+	1500 3900 1500 5250
 Connection ~ 1500 4000
 Wire Wire Line
 	1600 2900 1600 3000
@@ -783,4 +783,30 @@ Connection ~ 2750 2700
 Wire Wire Line
 	2750 3900 2750 4200
 Connection ~ 2750 4200
+$Comp
+L Diode_Bridge D7
+U 1 1 57EBD8BE
+P 2150 4850
+F 0 "D7" H 1900 5150 50  0000 C CNN
+F 1 "AlterBridgeD" H 2500 4500 50  0000 C CNN
+F 2 "w_pth_diodes:bridge_wob_alter_pin" H 2150 4850 50  0001 C CNN
+F 3 "" H 2150 4850 50  0000 C CNN
+	1    2150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 4450 2150 4400
+Wire Wire Line
+	2150 4400 2300 4400
+Wire Wire Line
+	2300 4400 2300 3000
+Connection ~ 2150 3000
+Wire Wire Line
+	1500 5250 2150 5250
+Wire Wire Line
+	1750 4850 1750 4200
+Connection ~ 1750 4200
+Wire Wire Line
+	2650 4850 2550 4850
+Connection ~ 2650 3450
 $EndSCHEMATC

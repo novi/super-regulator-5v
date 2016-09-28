@@ -1,4 +1,4 @@
-update=2016 July 26, Tuesday 22:23:07
+update=2016 September 28, Wednesday 23:36:46
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../kicad-schlib-master/library;external/ab2tech-KiCad/library;external/Bridge_DB-1S
+LibDir=external/ab2tech-KiCad/library;external/Bridge_DB-1S;external/mod_pth_diodes
 [eeschema/libraries]
 LibName1=power
 LibName2=device

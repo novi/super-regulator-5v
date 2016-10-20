@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 3600 6050 3600
 Wire Wire Line
-	6600 3600 6350 3600
+	6350 3600 6600 3600
 Wire Wire Line
 	4700 2700 4700 2850
 Wire Wire Line
@@ -473,7 +473,7 @@ Wire Wire Line
 	2950 3300 2950 2700
 Connection ~ 3150 2700
 Wire Wire Line
-	2950 3600 2950 4200
+	2950 3600 2950 5200
 Connection ~ 4250 4200
 Wire Wire Line
 	3150 3600 3150 4200
@@ -570,9 +570,9 @@ Wire Wire Line
 	10100 4200 10100 4300
 Connection ~ 9850 4200
 Wire Wire Line
-	2150 3850 2150 4000
+	2150 4000 2150 3850
 Wire Wire Line
-	2150 4000 1400 4000
+	1400 4000 2150 4000
 Wire Wire Line
 	1750 3450 1650 3450
 Wire Wire Line
@@ -581,10 +581,10 @@ Connection ~ 2950 4200
 Wire Wire Line
 	2550 3450 2650 3450
 Wire Wire Line
-	2650 2700 2650 4850
+	2650 2700 2650 4700
 Connection ~ 2950 2700
 Wire Wire Line
-	2150 3050 2150 3000
+	2150 3000 2150 3050
 Wire Wire Line
 	1400 3000 2300 3000
 Wire Wire Line
@@ -634,23 +634,23 @@ $EndComp
 $Comp
 L AB2_AKZ500_02 X1
 U 1 1 5794C231
-P 1400 4000
-F 0 "X1" H 1155 3995 60  0000 R CNN
-F 1 "AC_IN" H 1300 4200 60  0001 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 1400 4000 60  0001 C CNN
-F 3 "" H 1400 4000 60  0000 C CNN
-	1    1400 4000
+P 1400 3000
+F 0 "X1" H 1155 2995 60  0000 R CNN
+F 1 "AC_IN" H 1300 3200 60  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 1400 3000 60  0001 C CNN
+F 3 "" H 1400 3000 60  0000 C CNN
+	1    1400 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L AB2_AKZ500_02 X1
 U 2 1 5794C29D
-P 1400 3000
-F 0 "X1" H 1155 2995 60  0000 R CNN
-F 1 "AC_IN" H 1200 2500 60  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 1400 3000 60  0001 C CNN
-F 3 "" H 1400 3000 60  0000 C CNN
-	2    1400 3000
+P 1400 4000
+F 0 "X1" H 1155 3995 60  0000 R CNN
+F 1 "AC_IN" H 1100 4550 60  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 1400 4000 60  0001 C CNN
+F 3 "" H 1400 4000 60  0000 C CNN
+	2    1400 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -676,7 +676,7 @@ F 3 "" H 1500 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1500 3900 1500 5250
+	1500 3900 1500 5300
 Connection ~ 1500 4000
 Wire Wire Line
 	1600 2900 1600 3000
@@ -783,30 +783,78 @@ Connection ~ 2750 2700
 Wire Wire Line
 	2750 3900 2750 4200
 Connection ~ 2750 4200
+Wire Wire Line
+	2300 3000 2300 4400
+Connection ~ 2150 3000
+Connection ~ 2650 3450
 $Comp
-L Diode_Bridge D7
-U 1 1 57EBD8BE
-P 2150 4850
-F 0 "D7" H 1900 5150 50  0000 C CNN
-F 1 "AlterBridgeD" H 2500 4500 50  0000 C CNN
-F 2 "w_pth_diodes:bridge_wob_alter_pin" H 2150 4850 50  0001 C CNN
-F 3 "" H 2150 4850 50  0000 C CNN
-	1    2150 4850
+L D D7
+U 1 1 5803BCE0
+P 2250 4600
+F 0 "D7" H 2250 4700 50  0000 C CNN
+F 1 "PWR_D" H 2250 4500 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2250 4600 50  0001 C CNN
+F 3 "" H 2250 4600 50  0000 C CNN
+	1    2250 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D8
+U 1 1 5803BD92
+P 2250 4800
+F 0 "D8" H 2250 4900 50  0000 C CNN
+F 1 "PWR_D" H 2250 4700 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2250 4800 50  0001 C CNN
+F 3 "" H 2250 4800 50  0000 C CNN
+	1    2250 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D9
+U 1 1 5803BE26
+P 2250 5100
+F 0 "D9" H 2250 5200 50  0000 C CNN
+F 1 "PWR_D" H 2250 5000 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2250 5100 50  0001 C CNN
+F 3 "" H 2250 5100 50  0000 C CNN
+	1    2250 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D10
+U 1 1 5803BEB4
+P 2250 5300
+F 0 "D10" H 2250 5400 50  0000 C CNN
+F 1 "PWR_D" H 2250 5200 50  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2250 5300 50  0001 C CNN
+F 3 "" H 2250 5300 50  0000 C CNN
+	1    2250 5300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4450 2150 4400
+	2400 4600 2400 4800
 Wire Wire Line
-	2150 4400 2300 4400
+	2650 4700 2400 4700
+Connection ~ 2400 4700
 Wire Wire Line
-	2300 4400 2300 3000
-Connection ~ 2150 3000
+	2100 4600 2000 4600
 Wire Wire Line
-	1500 5250 2150 5250
+	2000 4400 2000 5100
 Wire Wire Line
-	1750 4850 1750 4200
-Connection ~ 1750 4200
+	2000 5100 2100 5100
 Wire Wire Line
-	2650 4850 2550 4850
-Connection ~ 2650 3450
+	2100 4800 1900 4800
+Wire Wire Line
+	1900 4800 1900 5300
+Wire Wire Line
+	1500 5300 2100 5300
+Connection ~ 1900 5300
+Wire Wire Line
+	2300 4400 2000 4400
+Connection ~ 2000 4600
+Wire Wire Line
+	2400 5100 2400 5300
+Wire Wire Line
+	2950 5200 2400 5200
+Connection ~ 2400 5200
 $EndSCHEMATC

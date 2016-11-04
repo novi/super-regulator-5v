@@ -1,4 +1,4 @@
-update=2016 September 28, Wednesday 23:36:46
+update=Friday, October 28, 2016 'PMt' 07:51:40 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=external/ab2tech-KiCad/library;external/Bridge_DB-1S;external/mod_pth_diodes
@@ -72,3 +62,13 @@ LibName30=references
 LibName31=external/ab2tech-KiCad/library/ab2_terminal_block
 LibName32=external/Bridge_DB-1S/DB-1
 LibName33=external/cpavlina-kicad-schlib/library/semi-trans-OnSemi
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

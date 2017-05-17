@@ -32,6 +32,7 @@ LIBS:references
 LIBS:ab2_terminal_block
 LIBS:DB-1
 LIBS:semi-trans-OnSemi
+LIBS:super-reg-5v-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -113,7 +114,7 @@ F 3 "" H 5000 3450 50  0000 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-super-reg-5v LED1
+L LED LED1
 U 1 1 57943EDE
 P 4700 3050
 F 0 "LED1" H 4700 3150 50  0000 C CNN
@@ -417,7 +418,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 3600 6600 3600
 Wire Wire Line
-	4700 2700 4700 2850
+	4700 2700 4700 2900
 Wire Wire Line
 	4000 2700 5400 2700
 Wire Wire Line
@@ -426,7 +427,7 @@ Connection ~ 5100 2700
 Wire Wire Line
 	4800 3450 4700 3450
 Wire Wire Line
-	4700 3250 4700 3600
+	4700 3200 4700 3600
 Connection ~ 4700 3450
 Wire Wire Line
 	4700 4200 4700 3900

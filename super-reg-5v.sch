@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:super-reg-5v-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +32,6 @@ LIBS:references
 LIBS:ab2_terminal_block
 LIBS:DB-1
 LIBS:semi-trans-OnSemi
-LIBS:super-reg-5v-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -159,7 +157,7 @@ F 3 "" H 6200 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TL081-RESCUE-super-reg-5v U2
+L TL071 U2
 U 1 1 5794409D
 P 6900 3600
 F 0 "U2" H 6900 3850 50  0000 L CNN
@@ -170,7 +168,7 @@ F 3 "" H 6900 3850 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ZENER D3
+L D_Zener D3
 U 1 1 579441EA
 P 5800 3600
 F 0 "D3" H 5800 3700 50  0000 C CNN
@@ -215,7 +213,7 @@ F 3 "" H 2950 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L JUMPER3 JP1
+L Jumper_NC_Dual JP1
 U 1 1 5794546A
 P 6500 2450
 F 0 "JP1" H 6550 2350 50  0000 L CNN
@@ -415,7 +413,7 @@ $EndComp
 Wire Wire Line
 	5100 3250 5100 3200
 Wire Wire Line
-	6000 3600 6050 3600
+	5950 3600 6050 3600
 Wire Wire Line
 	6350 3600 6600 3600
 Wire Wire Line
@@ -439,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 2850 5500 3900
 Wire Wire Line
-	5600 3600 5500 3600
+	5500 3600 5650 3600
 Connection ~ 5500 3600
 Wire Wire Line
 	4000 2350 4000 3000
@@ -727,7 +725,7 @@ Connection ~ 3150 2350
 Wire Wire Line
 	3750 2350 4000 2350
 $Comp
-L TL081-RESCUE-super-reg-5v U3
+L TL071 U3
 U 1 1 57C2A197
 P 6900 4900
 F 0 "U3" H 6900 5150 50  0000 L CNN
@@ -858,4 +856,19 @@ Wire Wire Line
 Wire Wire Line
 	2950 5200 2400 5200
 Connection ~ 2400 5200
+NoConn ~ 6900 5200
+NoConn ~ 6800 5200
+NoConn ~ 6800 3900
+NoConn ~ 6900 3900
+$Comp
+L PWR_FLAG #PWR07
+U 1 1 591C8082
+P 6500 3000
+F 0 "#PWR07" H 6500 3000 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 3000 50  0001 C CNN
+F 2 "" H 6500 3000 60  0000 C CNN
+F 3 "" H 6500 3000 60  0000 C CNN
+	1    6500 3000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

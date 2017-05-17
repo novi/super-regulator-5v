@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:super-reg-5v-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -114,7 +115,7 @@ F 3 "" H 5000 3450 50  0000 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LED LED1
+L LED-RESCUE-super-reg-5v LED1
 U 1 1 57943EDE
 P 4700 3050
 F 0 "LED1" H 4700 3150 50  0000 C CNN
@@ -158,7 +159,7 @@ F 3 "" H 6200 3600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TL081 U2
+L TL081-RESCUE-super-reg-5v U2
 U 1 1 5794409D
 P 6900 3600
 F 0 "U2" H 6900 3850 50  0000 L CNN
@@ -726,7 +727,7 @@ Connection ~ 3150 2350
 Wire Wire Line
 	3750 2350 4000 2350
 $Comp
-L TL081 U3
+L TL081-RESCUE-super-reg-5v U3
 U 1 1 57C2A197
 P 6900 4900
 F 0 "U3" H 6900 5150 50  0000 L CNN

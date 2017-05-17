@@ -19,3 +19,4 @@ _autosave-*
 *.xml
 *.csv
 gerber
+super-reg-gerber/

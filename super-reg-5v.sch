@@ -197,7 +197,7 @@ U 1 1 57944A91
 P 4250 3450
 F 0 "C3" H 4275 3550 50  0000 L CNN
 F 1 "100u 35v LowESR" H 4250 3650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 4288 3300 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 4288 3300 50  0001 C CNN
 F 3 "" H 4250 3450 50  0000 C CNN
 	1    4250 3450
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 57945E44
 P 6100 2300
 F 0 "C6" H 6125 2400 50  0000 L CNN
 F 1 "100u 35v LowESR" H 5350 2450 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 6138 2150 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 6138 2150 50  0001 C CNN
 F 3 "" H 6100 2300 50  0000 C CNN
 	1    6100 2300
 	1    0    0    -1  
@@ -296,7 +296,7 @@ U 1 1 57946DD5
 P 5800 3900
 F 0 "C5" H 5825 4000 50  0000 L CNN
 F 1 "100u LowESR" V 5650 3650 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 5838 3750 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 5838 3750 50  0001 C CNN
 F 3 "" H 5800 3900 50  0000 C CNN
 	1    5800 3900
 	0    -1   -1   0   
@@ -329,7 +329,7 @@ U 1 1 5794728E
 P 7850 3950
 F 0 "C8" H 7875 4050 50  0000 L CNN
 F 1 "100u EP-Cap" H 7500 3800 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D8_L13_P3.8" H 7888 3800 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.80mm" H 7888 3800 50  0001 C CNN
 F 3 "" H 7850 3950 50  0000 C CNN
 	1    7850 3950
 	1    0    0    -1  
@@ -340,7 +340,7 @@ U 1 1 579477EA
 P 9000 3500
 F 0 "C9" H 9025 3600 50  0000 L CNN
 F 1 "100u" H 9025 3400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D6.3_L11.2_P2.5" H 9038 3350 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D6.3mm_P2.50mm" H 9038 3350 50  0001 C CNN
 F 3 "" H 9000 3500 50  0000 C CNN
 	1    9000 3500
 	1    0    0    -1  
@@ -384,7 +384,7 @@ U 1 1 57947E52
 P 9850 3550
 F 0 "C11" H 9875 3650 50  0000 L CNN
 F 1 "220u OS-CON" H 9875 3450 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D8_L13_P3.8" H 9888 3400 50  0001 C CNN
+F 2 "Capacitors_ThroughHole:CP_Radial_D8.0mm_P3.80mm" H 9888 3400 50  0001 C CNN
 F 3 "" H 9850 3550 50  0000 C CNN
 	1    9850 3550
 	1    0    0    -1  

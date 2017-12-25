@@ -98,7 +98,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory super-reg-gerber-neg/))
+      (outputdirectory neg-super-reg-gerber/))
   )
 
   (net 0 "")

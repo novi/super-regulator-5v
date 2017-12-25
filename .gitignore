@@ -20,3 +20,4 @@ _autosave-*
 *.csv
 gerber
 super-reg-gerber/
+super-reg-gerber-neg/
